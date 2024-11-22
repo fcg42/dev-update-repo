@@ -1,0 +1,353 @@
+version: 2.3.2
+files:
+  - url: Rally-Navigator-Installer-latest.AppImage
+    sha512: YpvRi0P89oakRoxWZTLlcNd13RYDATBKcSESCucAOZ84iZAPBLB0CX7+5Wjcfm1ODRuR3JHctGldlCvGxl9IBQ==
+    size: 121733764
+    blockMapSize: 127640
+path: Rally-Navigator-Installer-latest.AppImage
+sha512: YpvRi0P89oakRoxWZTLlcNd13RYDATBKcSESCucAOZ84iZAPBLB0CX7+5Wjcfm1ODRuR3JHctGldlCvGxl9IBQ==
+releaseNotes: |
+  ### What's New?
+
+  ### 2.3.2
+
+  Rally Navigator is Bigger. Faster. Stronger.
+   
+  HOW IT WORKS VIDEO: https://youtu.be/W3AEK98gbzw
+
+  New Features:
+
+  * Support for Arabic, French, German, Greek, Italian, Portuguese, Spanish Menu & System Languages
+  * Support for 38 Different Languages for Map and Snap to Roads Text
+  * Fullscreen Map View (keyboard shortcut M)
+  * LAT LON Format: Decimal Degrees or Degrees and Decimal Minutes
+  * Option to hide Row/Tulip number from Cross Country PDF
+  * Added info in Cross Country A5 PDF when next page starts with a Danger
+  * Option to Show/Hide WPP on PDF & OpenRally GPX
+  * Drawing tool with Wadi, River and Sand presets
+  * Grey color option for Text
+  * Option to remove timestamps when importing GPX file
+  * Option to remove extra track points when importing GPX file
+  * Support for Rally Devices: Stella Anube, TeamTrack, DigiComp File Export
+  * Added Speed Icons up to 180
+  * TSD Excel Sheet now includes Control Waypoint details
+
+  New Pro Features
+
+  * Show Waypoint Number on Map
+  * Show Control Waypoint Features on Map
+  * Show Speed and Elevation on Map
+  * Cross Country: Add "ET Distance CAP" tool for Double or Triple notes in text box.
+  * Map Measuring tool (Distance and CAP)
+   
+  Improved Features
+
+  * Importing multiple GPX track on map overlay shows different color on map
+  * Bigger partial distance on Cross Country format
+  * Street View – Bigger screen and Map Control
+  * Turning off Auto Highlight also removes all background colors
+  * Auto arrange formatting in text box. Auto scaling of icons and placement of text.
+  * Drag and drop of road sections and icons. Elements are immediately selected without click away and click back.
+   
+  Bug Fixes
+
+  * UNDO/REDO - faster & better
+  * PASTE Function
+  * Navigation on the waypoints list on Mac using arrow up/down
+   
+  Huge thanks to everybody who contributed to translating Rally Navigator into new languages.
+
+  Please review translations and notify us if you see anything that needs attention. Send a screen shot and the exact fix you suggest. info@rallynavigator.com
+   
+  Thanks for supporting Rally Navigator
+  Mike and the Rally Navigator Development Team (Dave, Filipe, Helder, Cesar, Sergei)
+
+  ### 2.3.1
+
+  * Fixed: Drawing tools malfunction on Mac (since 2.3.0)
+  * Fixed: Release notes panel not showing properly
+
+  ### 2.3.0
+
+  * New: "View" mode icon toggles thru 4 views (replaces compass)
+  * New: Text color options (red and green text) in right-click context menus
+  * New: Support for F2R Y1000 device
+  * New: Option to add a QR Code with a custom URL to the Roadbook Header
+  * New: Cropping tool for the Roadbook Header
+  * New: CrossCountry PDF can now be centered on page
+  * New: Option to include FIA Lexicon on bottom of the PDF
+  * New: Multi window support (open several roadbooks at the sime time)
+  * Change: Replace map's compass with multi-function Eye icon
+  * Fixed: Snap-to-road changes to Walking API if Driving has no route 
+  * Fixed: Waypoint numbering on Plain GPX and KML exports
+  * Fixed: Clean GPX timestamps on import
+  * Fixed: Include WPP on UNIK4 file export
+
+  ### 2.2.17
+
+  * Change: Auto-Arrange can now be disabled for Road Rally as it has been for Cross Country
+  * Change: Manually moving/scaling/rotating icons or text will disable Auto-Arrange
+  * New: Right-click "Arrange Objects" will "Auto-Arrange" that one drawing only
+  * Change: Legacy RN.com roadbooks now available by ZIP download
+
+  ### 2.2.16
+
+  * Change: Default to 1 track handle for the most efficient way to handle most road curves.
+  * Change: Fix bridge icon
+  * Change: Layer most "Terrain" below the track, to save clicks.
+  * Change: Overlay track is now bright yellow again
+
+  ### 2.2.15
+
+  * Fix: Set the "modified at" timestamp correctly when downloading routes from RN.com.
+  * Improve the visibility of "overlay" waypoints and tracks.
+
+  ### 2.2.14
+
+  * Improve "follow roads" feature on minor roads
+  * Improve visibility of minor roads on map
+  * Fix: The first trackpoint MUST always be shown on the roadbook.
+  * Fix: Issue where first Road Rally header might not be editable.
+
+  ### 2.2.12
+
+  * Fix: Filenames of downloaded roadbooks had no ".rn2" file extension.
+
+  ### 2.2.11
+
+  * Fix: When downloading roadbooks from RN.com with the same name, files would be overwritten. Now using route ID in the filename to maintain uniqueness.
+
+  ### 2.2.10
+
+  * Fix: Decimal format menu missing for MacOS users 
+  * New: Ask users if they want to download "My Roadbooks" after logging in for the first time.
+
+  ### 2.2.9
+
+  * Fix: In some cases, bad data prevented the tulip from rendering the main track, showing only alternate roads
+  * Fix: GPX import edge cases
+
+  ### 2.2.8
+
+  * New: "Map->Show Animations" allows user to disable map animations on slower computers
+  * New: Support for ERTF Unik4 tablet
+
+  ### 2.2.7
+
+  * Fix: When switching between Google and Mapbox, track was not re-rendered
+
+  ### 2.2.6
+
+  * New: Add support for "Plain GPX" (same as "Garmin GPS") file exports (no OpenRally tags)
+  * New: Map Lock icon is now RED when locked to better inform user
+  * Fix: Some background images from RN.com were not importing properly
+  * Fix: When appending track at end of roadbooks, some points might have been filtered
+
+  ### 2.2.5
+
+  * Fix: Support for interlaced PNG in PDF header
+  * Fix: Some background images from RN.com were not importing properly
+  * Fix: Some minor PDF pixel pushing
+  * Tweak some icons
+  * Fix: Road Rally sign text/icons can now be reliably deleted
+
+  ### 2.2.4
+
+  * Fix: OpenRally tags missing from Road Rally danger icons
+  * Fix: Google Satellite view has the same text data layers as Mapbox view
+  * Change: Road Rally track color now defaults to black
+
+  ### 2.2.3
+
+  * Improved Road Rally PDF readability
+  * Fix: Some custom icons from RN.com were not importing properly
+
+  ### 2.2.2
+
+  * New: Google Street View is back!
+  * Fix: Switching between Mapbox and Google imagery is now more reliable and immediate
+  * Fix: Fade hundredth digit
+
+  ### 2.2.1
+
+  * Performance fix! General sluggishness.
+
+  ### 2.2.0
+
+  * Major Road Rally feature release!!!
+  * Section Headers are editable
+  * Improved automatic stage information
+  * 2023 FIA/WRC rules updates
+  * New icons
+  * Radio strength icon with adjustable strength
+  * New HEV chevrons for tarmac/gravel column
+  * Roads in road rally tulips do not end with cross country "no-go" lines
+  * Road Rally PDFs are centered on page 
+  * Lots of visual formatting fixes
+  * Separation of radio and GPS icons
+  * FIX: fuel range calculation
+  * FIX: elevation data
+  * Support for non-Latin characters (like Cyrillic, Polish, Czech, etc)
+  * and much, much more!!!
+
+  ### 2.1.5
+
+  * FIX: Support for addition drive letters in Windows when making PDFs (other than C:)
+
+  ### 2.1.4
+
+  * FIX: Automatic backups, see **File->Preferences**, on Windows also :-)
+
+  ### 2.1.3
+
+  * New: Automatic backups, see **File->Preferences**
+  * FIX: Pro users no longer see "Personal Use Only" on PDF
+  * FIX: Tulip unexpectedly prints out of order
+  * FIX: Re-enable narrow piste road type from pre-2023 lexicon
+
+  ### 2.1.2
+
+  * OpenRally 1.0.3 support for 2023 Lexicon in GPX files (new tags)
+  * User can highlight any text in tulip and description boxes (right-click)
+  * Minor tweaks and fixes
+
+  ### 2.1.1
+
+  * New 2023 FIA/Dakar lexicon and WP types
+  * More than 420 new vector roadbook icons
+  * New "TerraPirata" device support
+  * Minor UI tweaks/fixes
+
+  ### 2.1.0
+
+  * All new PDF engine for high quality PDF output with smaller PDF sizes
+  * Improved tulip and notes rendering
+  * Better support for layering objects, including roads
+  * New "Enduro Comp" device support
+  * Various bug fixes and minor improvements
+
+  ### 2.0.18
+
+  * New: FIA/FIM/Dakar-style blue track option in **Roadbook->Track Color** menu.
+  * Fix: OpenRally GPX total distance tag was not accurate on routes with distance resets.
+
+  ### 2.0.17
+
+  * Important Change: The "partial" distances are now computed from the end user's perspective. This also applies to the TSD spreadsheets.
+
+      * The Total Distance remains unchanged. It will always be calculated in high precision and ROUNDED for display.
+
+      * The Partial Distance in versions <= 2.0.16 was also calculated in high precision and ROUNDED for display.
+
+      * The Partial Distance in version 2.0.17 and later is calculated so that the displayed values in the roadbook "make sense" to the competitor. That is to say, the mathematics of the displayed roadbook is obvious and reconcilable.
+
+  Example:
+
+  | Actual GPS Partial / Total | Old partial / Total | New Partial / Total |
+  |----------------------------|---------------------|---------------------|
+  | 0.000 / 0.000              | 0.00 / 0.00         | 0.00 / 0.00         |            
+  | 1.556 / 1.556              | 1.56 / 1.56         | 1.56 / 1.56         |            
+  | 1.556 / 3.112              | 1.56 / 3.11         | _**1.55**_ / 3.11     |            
+  | 1.556 / 4.668              | 1.56 / 4.67         | 1.56 / 4.67         |            
+  | 1.556 / 6.224              | 1.56 / 6.22         | _**1.55**_ / 6.22     |            
+  | 1.556 / 7.780              | 1.56 / 7.78         | 1.56 / 7.78         |            
+  | 1.556 / 9.336              | 1.56 / 9.34         | 1.56 / 9.34         |            
+
+  ### 2.0.16
+
+  * Minor fixes
+
+  ### 2.0.15
+
+  - New: Map->Satellite Options=>Prefer Google Imagery option
+  - Updated to latest Mapbox version
+
+  ### 2.0.14
+
+  - Fix: CAP showing "---" instead of "0"
+  - New: Road rally "GPS" icon enables display of coordinates
+  - New: Road rally "RESET" icon now puts "/0,00" in the distance cell
+
+  ### 2.0.13
+
+  - Improve GPX import by recognizing waypoints created during the recording of the track (Thanks Eliseo)
+  - New: Remote debugging for admin users
+
+  ### 2.0.12
+
+  - Fix Road Rally formatting of distances (Thanks TW)
+  - Updated OpenRally support for new "show_coordinates" tag (Thanks FG)
+  - Add additional roll print options (1-8 wide) (Thanks MS)
+  - Allow "new folder" option in some file dialogs
+
+  ### 2.0.11
+
+  - Fix: Some RN.com roadbooks with pencil lines were not importing properly (thanks Jordi)
+
+  ### 2.0.10
+
+  - Road Rally section headers and transit/special "magic text"
+
+  ### 2.0.9
+
+  - Fix 6- and 8-wide roll scaling to fit pages (thanks JL)
+
+  ### 2.0.8
+
+  - Improve error reporting on File->Save failure (thanks LL)
+  - Skip "Deleted Routes" folder when downloading from RN.com
+
+  ### 2.0.7
+
+  - Added "VDS Racing" device export
+  - Eliminate horizontal highlight in case of a DZ-DZ-FZ sequence (change of speed within one long zone) (thanks EG)
+  - Road rally page header improvements
+  - PDF roll change number of instructions per page to 140 so that it fits 200 inch page (thanks WA)
+
+  ### 2.0.6
+
+  - Fix: Remove extra page breaks in roll PDF (LL)
+  - New: Automatic "Dakar-style" waypoint numbers (see "Roadbook->Show Control Waypoint Numbers")
+  - Fix: Bug when a WPM or similar does not have any properties to show in Properties (EG)
+
+  ### 2.0.5
+
+  - Include tulip and notes images in full OpenRally GPX export (excluded for devices)
+  - Include CAP in OpenRally GPX output
+  - Fix "next note distance" in page footer (incorrect since 2.0.4)
+
+  ### 2.0.4
+
+  - Fix stage/road rally PDF page breaks
+
+  ### 2.0.3
+
+  - Changed Export menus slightly
+
+  ### 2.0.2
+
+  - New **optional** release updates
+  - Added **"Release Notes"** to main menu
+  - Improvements to **Follow Roads** routing logic
+  - Hold ALT (OPT on Mac) key to make a new WAYPOINT (saves double-click)
+  - Add **Map->Streets** menu option and icon
+  - Enabled **Map->3D** menu option
+  - Fix: Include all roadbooks from RN.com roadbook downloads
+  - Include elevation data in GPX export
+  - Renamed "Layout Assistant" to **"Auto-Arrange"** and added duplicate link in context menu (right-click) for visibility
+  - Fix bug where some roadbook information was not updated after deleting rows (thanks, SW)
+
+  ### 2.0.1
+
+  - Add "Create Account" link to login dialog
+  - Fix Map->Pitch menu
+  - Fix Tulip context menu
+  - Fix Tulip road keyboard shortcuts
+  - Update Help->Shortcuts
+  - Set default number of handles back to 4 (same as RN.com)
+  - Latest "alpha" work on road and stage rally section headings
+
+  ### 2.0.0
+
+  - Public BETA, thanks to all the early testers who made this possible!
+releaseDate: '2024-11-21T19:56:48.964Z'
